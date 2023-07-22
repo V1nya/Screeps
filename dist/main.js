@@ -3,6 +3,10 @@ var roleHarvester = require('role.harvester'),
     roleBuilder = require('role.builder'),
     checkCountCreep = require('utils.checkCountCreep');
 
+function greet(name) {
+    console.log("Hello, " + name + "!");
+}
+
 module.exports.loop = function () {
     checkCountCreep.harvester();
     checkCountCreep.builder();
@@ -24,7 +28,4 @@ module.exports.loop = function () {
             roleBuilder.run(creep);
         }
     }
-}
-module.exports =function sayHello() {
-    console.log("Привет, мир!");
 }
