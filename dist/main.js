@@ -4,7 +4,7 @@ var roleHarvester = require('role.harvester'),
     checkCountCreep = require('utils.checkCountCreep');
 
 module.exports.loop = function () {
-
+    console.log(1);
     checkCountCreep.harvester();
     checkCountCreep.builder();
     checkCountCreep.upgrader();
