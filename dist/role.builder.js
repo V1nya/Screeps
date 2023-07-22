@@ -1,4 +1,4 @@
-//1
+
 var roleBuilder = {
     /** @param {Creep} creep **/
     run: function(creep) {
@@ -21,7 +21,8 @@ var roleBuilder = {
                 }
             } else {
                 // Если нет строительных площадок, трудяга переключится на роль сборщика (harvester) и будет доставлять энергию к контроллеру
-                roleHarvester.run(creep);
+                creep.say('Stay');
+
             }
         } else {
             // Если крип не занят строительством, выбираем источник для сбора энергии
