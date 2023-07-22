@@ -1,4 +1,3 @@
-//11
 var roleBuilder = {
     /** @param {Creep} creep **/
     run: function(creep) {
