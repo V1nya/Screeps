@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "pushInGameAndGit": "grunt screeps  && git add . && git commit -m \"Update code\" && git push origin main"
+    "pushInGameAndGit": "grunt screeps  && git add . && git commit -m \"Update code\" && git push origin master\n"
 },
   "keywords": [],
   "author": "",
