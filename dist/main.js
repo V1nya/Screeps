@@ -25,3 +25,6 @@ module.exports.loop = function () {
         }
     }
 }
+function sayHello() {
+    console.log("Привет, мир!");
+}
