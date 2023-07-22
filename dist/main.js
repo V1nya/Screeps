@@ -5,6 +5,7 @@ var roleHarvester = require('role.harvester'),
 
 global.greet = function(name) {
     console.log("Hello, " + name + "!");
+    return 0;
 };
 
 module.exports.loop = function () {
