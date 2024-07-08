@@ -8,6 +8,7 @@ module.exports.loop = function () {
     checkCountCreep.harvester();
     checkCountCreep.builder();
     checkCountCreep.upgrader();
+    // test update
 
     for (var name in Game.creeps) {
         var creep = Game.creeps[name];
